@@ -1,0 +1,611 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p {
+    margin: 10px 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #3d2514;
+}
+
+.top {
+    color: #3d2514;
+}
+
+.heading {
+    color: #3d2514;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+
+.top {
+    padding: 55px 50px 0;
+}
+
+.logo img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.banner {
+    background-image: url(../img/background.png);
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    font-family: 'Bebas Neue', cursive;
+}
+header ul li:hover a{
+    background-color: #3d2514;
+    color: #ffc045;
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo {
+    float: right;
+    vertical-align: middle;
+}
+
+.home li {
+    display: inline-block;
+}
+
+.home {
+    text-align: right;
+}
+
+.home a {
+    padding-left: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #3d2514;
+    padding-right: 10px;
+}
+
+.heading {
+    width: 100%;
+    float: left;
+    padding: 50px 50px 0;
+}
+
+.photo {
+    width: 50%;
+    float: left;
+}
+
+.drink {
+    width: 50%;
+    float: right;
+    position: relative;
+}
+
+.photo {
+    padding-top: 175px;
+}
+
+.photo h1 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 74px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    filter: drop-shadow(2px 2px 0px #fff);
+}
+
+.photo h3 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 48px;
+    margin-top: -17px;
+    text-transform: uppercase;
+    filter: drop-shadow(2px 4px 0 #fff);
+    text-align: inherit;
+
+
+}
+
+.tast {
+    border-top: 3px solid #3d2514;
+    border-bottom: 3px solid #3d2514;
+    border-left: 2px solid #3d2514;
+    border-right: 2px solid #3d2514;
+    border-style: dashed;
+    padding: 8px 8px;
+    margin-bottom: 30px;
+    float: left;
+}
+
+.red {
+    position: absolute;
+    bottom: 35px;
+    left: 60px;
+    width: 85px;
+    height: 85px;
+    background-color: red;
+    border-radius: 50%;
+    padding: 2px 2px 2px 2px;
+
+
+}
+
+.price {
+    color: white;
+    background-color: #bf2222;
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 45px;
+    margin-bottom: 45px;
+    line-height: 1;
+}
+
+.price1 {
+    border: 2px dashed white;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    margin: auto;
+    padding-top: 13px;
+    margin-top: 12px;
+}
+
+
+.border {
+    border: 3px solid #fff;
+    border-style: dashed;
+    color: #fff;
+    border-radius: 50%;
+    padding: 11px;
+    line-height: 1.0;
+    width: 5px;
+    height: 85px;
+    text-align: center;
+}
+
+.point {
+    font-size: 12px;
+    color: #fff;
+}
+
+.price1 p {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-bottom: 0%;
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+
+
+}
+
+.layer2 {
+    width: 100%;
+    float: left;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+}
+
+.wrapper {
+    width: 95%;
+    margin: auto;
+
+}
+
+.layer2 .lay1 {
+    width: 49.99%;
+    float: left;
+    position: relative;
+    padding-right: 40px;
+}
+
+.position {
+    position: absolute;
+    top: 35px;
+    left: 30px;
+    letter-spacing: 1px;
+}
+
+.lay2 {
+    width: 49.99%;
+    float: left;
+}
+
+.image {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.image1 {
+    position: absolute;
+    top: 35px;
+    left: 30px;
+    letter-spacing: 1px;
+}
+
+.layer2 img {
+    border-radius: 10px;
+}
+
+.layer3 {
+    width: 100%;
+    float: left;
+
+}
+
+h5 span {
+    padding: 10px 10px;
+    background-color: #ffc045;
+
+}
+
+.rm h1,
+h5 {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    color: #3d2514;
+    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+}
+
+.rm p {
+    text-align: center;
+}
+
+.tm {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.tm1 {
+    width: 33.33%;
+    float: left;
+}
+
+.tm h3 {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 32px;
+    color: #3d2514;
+}
+
+.tm button {
+    background-color: red;
+    border-style: none;
+    margin-top: 25px;
+}
+ button:hover {
+    background-color: #3d2514;
+    color: #3d2514 
+}
+ .table:hover{
+    background-color: indianred;
+}
+input{
+    outline: none;
+}
+
+.tm a {
+    color: #fff;
+    font-size: 26px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    padding: 15px 15px;
+}
+
+.tm1 img {
+    margin: 48px 0;
+}
+
+.tm1 h2 {
+    text-align: center;
+}
+
+.slider {
+    width: 100%;
+    float: left;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.shadow {
+    width: 100%;
+    float: left;
+    box-shadow: 5px 14px 20px 0px #bcc;
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 10px;
+    position: absolute;
+    bottom: 14px;
+    left: 7%;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: red !important;
+}
+
+.slider1 {
+    width: 50%;
+    float: left;
+    padding: 80px 0 0 40px;
+    color: #3d2514;
+}
+
+.list1 {
+    width: 50%;
+    float: left;
+    padding: 20px 20px 20px 0px;
+}
+
+.slider1 h1,
+h3 {
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.slider1 h3 {
+    text-align: inherit;
+}
+.layer3 span:hover{
+    background-color: #3d2514;
+    color: #ffc045;
+}
+
+
+.slider1 P {
+    line-height: 20px;
+    word-spacing: 2px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+
+.layer5 {
+    width: 100%;
+    float: left;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.tc5 h1,
+h3 {
+    text-align: center;
+    letter-spacing: 4px;
+    font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;
+    text-transform: uppercase;
+
+}
+
+.tc5 {
+    width: 100%;
+    float: left;
+    padding-top: 95px;
+}
+
+.tc5 h3 {
+    padding-bottom: 10px;
+}
+
+.tc5 h1 {
+    padding-bottom: 50px;
+}
+
+.wrapper1 {
+    width: 600px;
+    margin: auto;
+}
+
+.part1,
+.part2 {
+    width: 50%;
+    float: left;
+}
+
+.form1 {
+    width: 100%;
+    float: left;
+}
+
+.form1 input {
+    width: 100%;
+    padding: 12px 12px;
+    margin: 12px 0px;
+    border-radius: 4px;
+    border: 0;
+    border: 1px solid #ccc;
+}
+
+.form1 {
+    padding-left: 20px;
+}
+
+.form1 button {
+    width: 100%;
+    padding: 12px 12px;
+    margin: 12px 0;
+    border-style: none;
+    background-color: red;
+    border-radius: 4px;
+    color: #fff;
+    font-family: 'Alfa Slab One', cursive;
+    ;
+}
+
+.part1,
+.part2 {
+    padding-bottom: 20px;
+}
+
+.layer6 {
+    width: 100%;
+    float: left;
+}
+
+.footer {
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.logo1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 25px 0 0px 40px;
+    width: 59%;
+    float: left;
+}
+
+.logo1 p {
+    color: #fff;
+    padding-top: 30px;
+    line-height: 1.5;
+}
+p.wr{
+    padding-top: 80px;
+}
+
+.email {
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 49%;
+    padding-top: 170px;
+    padding-left: 180px;
+}
+
+.media {
+    padding-top: 125px;
+    padding-left: 110px;
+}
+.email  span{
+    color: #fff;
+    padding-left: 8px;
+}
+i{
+    color: #fff;
+    font-size: 30px;
+    padding: 5px 8px 5px 8px;
+  
+}
+.media i:hover{
+background-color: #3d2514;
+}
+
+@media only screen and (max-width:992px){
+    .top > img{
+        width: 35%;
+    }
+    .home a {
+        font-size: 18px;
+        padding-left: 20px;
+    }
+    .top{
+        padding: 30px 50px;
+    }
+    .price{
+        margin-bottom: 10px;
+    }
+    .photo h1{
+        font-size: 44px;
+    }
+    .photo h3{
+        font-size: 28px;
+        margin-top: -12px;
+        padding-bottom: 30px;
+    }
+    .tast{
+        font-size: 12px;
+    }
+    .lay1{
+        padding-right: 30px;
+    }
+    .lay2{
+        width: 46.99%;
+    }
+    .layer2{
+        font-size: 14px;
+    }
+    .rm p{
+        font-size: 12px;
+    }
+    .tm h3{
+        font-size: 27px;
+    }
+    .tm p{
+        font-size: 14px;
+    }
+    .slider{
+        font-size: 12px;
+    }
+    .slider1 p{
+        padding-top: 10px;
+    }
+    .form1 input{
+        width: 80%;
+        margin: 12px 50px;
+    }
+    .form1 button{
+        width: 80%;
+        margin: 12px 50px;
+    }
+    .logo1 img{
+        width: 65%;
+    }
+    .logo1 p{
+        font-size: 14px;
+    }
+    p.wr{
+        padding-top: 45px;
+    }
+    .media{
+        padding: 0;
+    }
+    .fa-brands, .fab{
+        padding: 70px 10px 0 10px;
+        font-size: 20px;
+    }
+    .email{
+        padding: 140px 0 0 180px;
+        font-size: 14px;
+        width: 58%;
+    }
+    
+    .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 10px;
+    position: absolute;
+    bottom: 5px;
+    left: 7%;
+}
+}
